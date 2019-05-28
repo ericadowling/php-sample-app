@@ -1,0 +1,3 @@
+dirlogs.txt
+index.php
+manifest.yml

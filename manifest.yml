@@ -1,0 +1,11 @@
+---
+applications:
+- name: php-app-test
+  memory: 2G
+  disk: 1G
+  buildpacks:
+  - https://github.com/cloudfoundry/php-buildpack#v4.3.61
+  stack: cflinuxfs3
+  env:
+    FORCE_HTTPS: true
+    CF_STAGING_TIMEOUT: 20
